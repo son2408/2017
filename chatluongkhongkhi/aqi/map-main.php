@@ -4,7 +4,7 @@
             $filename_h = $_GET['filename'];
 			$filename_ngay = $_GET['filename'].'_ngay';
 		}
-         required("../../conn.php");
+         require("../../conn.php");
  ?>
  <style type="text/css">
     .map { position:absolute; top:0; bottom:0; width:100%; }
