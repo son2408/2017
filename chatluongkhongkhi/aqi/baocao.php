@@ -20,7 +20,7 @@
 		if(isset($_GET['filename'])){
            	if($_GET['filename']!=''){
            	$filename_h= $_GET['filename'];
-           	required("../../conn.php");
+           	require("../../conn.php");
            
            
 	 ?>
